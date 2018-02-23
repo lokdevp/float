@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box
+}
+body{
+  background-color: rgb(241, 241, 241);  
+}
+.main-content{
+  background-color: #fff;
+  width: 70%;
+  padding: 20px;
+  margin: 0 15%;
+}
+.box{
+  width: calc(100% - 40px);
+  box-shadow:5px 10px 8px #888888;
+  padding: 2%;
+  margin :20px;
+  text-align: justify;
+}
+@font-face {
+  font-family: "Computerfont";
+  src: url("fonts/Computerfont.ttf");
+}
+h3{
+  font-family: Computerfont;
+}
+.dotted{
+  border: 4px rgb(124, 55, 55) dotted;
+}

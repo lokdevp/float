@@ -1,0 +1,53 @@
+.left{
+  float: left;
+  width: 50%;
+}
+.right{
+  float: right;
+  width: 50%;
+}
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+p{
+  color: #333
+}
+div p{
+  color: black
+}
+#rp{
+  color: rgb(255, 136, 0)
+}
+body{
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+#main-content > p{
+  color: rebeccapurple;
+}
+#sub-content h2 +p{
+  color: blue
+}
+input[type=text]{
+  color:red
+}
+a:visited{
+  color: purple
+}
+article p:first-of-type{
+  font-family: 'Computerfont'
+}
+@font-face {
+  font-family: "Computerfont";
+  src: url("fonts/Computerfont.ttf");
+}
+article p:nth-child(even){
+  background-color: tomato
+}
+article{
+  font-size: 20px;
+}
