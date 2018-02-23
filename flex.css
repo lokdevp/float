@@ -1,3 +1,6 @@
 .container{
   display: flex;
 }
+#main-content > p{
+  color: rebeccapurple;
+}
